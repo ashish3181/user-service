@@ -25,6 +25,7 @@ public class UserController {
 //	        return userRepository.findAll();
 //	    }
 
+	 
 	 @PostMapping("/add")
 	    public boolean addUser(@RequestBody User user) {
 		 System.out.println("USERRRRRRR-->"+user.toString());
