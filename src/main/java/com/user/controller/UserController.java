@@ -1,8 +1,6 @@
 package com.user.controller;
 import java.util.ArrayList;
 import java.util.List;
-
-//https://chatgpt.com/c/683d7d8e-0c24-8010-916a-3d454b06d8fc
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
