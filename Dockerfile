@@ -10,3 +10,4 @@ COPY ${JAR_FILE} app.jar
 
 # Run the application
 ENTRYPOINT ["java", "-jar", "app.jar"]
+
